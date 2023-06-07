@@ -54,14 +54,17 @@ switch (opcion) {
 agregar = prompt("¿Querés meterle más productos al carrito? si/no")
 
 
-} while (agregar == "si")
+} while (agregar === "si")
 
-alert(`${ticket} El total es de: $${total}`);
+alert(`${ticket} El total es de: $ ${total}`);
 
 
 
 alert("¡Gracias por tu compra!") ;
 
+
+
+//Mensaje al tutor: No sé cómo hacer para que el ticket se muestre en un alert con todo los productos y cantidades compradoos detallados. 
 
 
 
